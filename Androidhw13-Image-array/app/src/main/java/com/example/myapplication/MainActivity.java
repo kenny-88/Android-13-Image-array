@@ -1,4 +1,4 @@
-package com.example.android_num_13_imagelist;
+package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,38 +24,38 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 EditText nb = (EditText)findViewById(R.id.ed1);
-                ImageView img = (ImageView)findViewById(R.id.this_im1);
+                ImageView img = (ImageView)findViewById(R.id.im1);
                 int number = Integer.parseInt(nb.getText().toString());
 
-                if (number == a){
-                    im1g.setImageResource(im[0]);
+                if (number == 1){
+                    img.setImageResource(im[0]);
                 }
-                else if (number == b){
-                    im1.setImageResource(im[1]);
+                else if (number == 2){
+                    img.setImageResource(im[1]);
                 }
-                else if (number == c){
-                    im1.setImageResource(im[2]);
+                else if (number == 3){
+                    img.setImageResource(im[2]);
                 }
-                else if (number == d){
-                    im1.setImageResource(im[3]);
+                else if (number == 4){
+                    img.setImageResource(im[3]);
                 }
-                else if (number == e){
-                    im1.setImageResource(im[4]);
+                else if (number == 5){
+                    img.setImageResource(im[4]);
                 }
-                else if (number == f){
-                    im1.setImageResource(im[5]);
+                else if (number == 6){
+                    img.setImageResource(im[5]);
                 }
-                else if (number == g){
-                    im1.setImageResource(im[6]);
+                else if (number == 7){
+                    img.setImageResource(im[6]);
                 }
-                else if (number == h){
-                    im1.setImageResource(im[7]);
+                else if (number == 8){
+                    img.setImageResource(im[7]);
                 }
-                else if (number == i){
-                    im1.setImageResource(im[8]);
+                else if (number == 9){
+                    img.setImageResource(im[8]);
                 }
-                else if (number == j){
-                    im1.setImageResource(im[9]);
+                else if (number == 10){
+                    img.setImageResource(im[9]);
                 }
             }
         });
