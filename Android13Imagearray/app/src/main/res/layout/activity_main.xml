@@ -55,6 +55,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt1"
-        tools:srcCompat="@mipmap/a" />
+        tools:srcCompat="@mipmap/photoa" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

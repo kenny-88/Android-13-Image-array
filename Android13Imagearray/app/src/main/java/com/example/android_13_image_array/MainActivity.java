@@ -10,9 +10,9 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int[] im = {R.mipmap.a, R.mipmap.b, R.mipmap.c,
-            R.mipmap.d, R.mipmap.e, R.mipmap.f,
-            R.mipmap.g, R.mipmap.h, R.mipmap.i, R.mipmap.j};
+    private int[] im = {R.mipmap.photoa, R.mipmap.photob, R.mipmap.photoc,
+            R.mipmap.photod, R.mipmap.photoe, R.mipmap.photof,
+            R.mipmap.photog, R.mipmap.photoh, R.mipmap.photoi, R.mipmap.photoj};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
